@@ -1,0 +1,38 @@
+body {
+    font-family: Helvetica;
+    font-size: 18px;
+    background-color: #242f44;
+    color: white;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+table {
+    margin: auto;
+    border: 2px solid black;
+}
+
+thead{
+    text-transform: uppercase;
+}
+
+thead th {
+    color: #8c6b48;
+    background-color: whitesmoke;
+}
+
+tbody td {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid peachpuff;
+}
+
+tbody th {
+    border: 1px solid peachpuff;
+}
+
+.main-header {
+    text-align: center;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selectors + HTML Table</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1 class="main-header">
+    This is Cheat Sheet for CSS Selectors and HTML Table elements
+</h1>
+    <table id="css-selectors">
+        <thead>
+        <tr>
+            <th></th>
+            <th>Selector</th>
+            <th>Description</th>
+            <th>Example</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th rowspan="3">Single Selector</th>
+            <td>p</td>
+            <td>Select all p element</td>
+            <td> p {
+                font-family:Arial;
+                }
+            </td>
+        </tr>
+        <tr>
+            <td>.class</td>
+            <td>Select all elements with class</td>
+            <td> .class {
+                font-family:Arial;
+                }
+            </td>
+        </tr>
+        <tr>
+            <td>#id</td>
+            <td>Select element with specific id</td>
+            <td> #id {
+                font-family:Arial;
+                }
+            </td>
+        </tr>
+        <tr>
+            <th rowspan="4">Combined Selectors</th>
+            <td>p.class</td>
+            <td>Select all p elements with specific class</td>
+            <td> p.class {
+                font-family:Arial;
+                }
+            </td>
+        </tr>
+        <tr>
+            <td>#id p</td>
+            <td>Select all p elements within element with id</td>
+            <td> #id p {
+                font-family:Arial;
+                }
+            </td>
+        </tr>
+        <tr>
+            <td>#id p class</td>
+            <td>Select all p elements with class within element with id</td>
+            <td> #id p.class {
+                font-family:Arial;
+                }
+            </td>
+        </tr>
+        <tr>
+            <td>p, h2, h3</td>
+            <td>Select all p, h2, h3 within document</td>
+            <td> p, h2, h3 {
+                font-family:Arial;
+                }
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <br>
+    <table id="table-elements">
+        <thead>
+        <tr>
+            <th>Element</th>
+            <th>Meaning</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>&lttable&gt</td>
+            <td>Main tag for defining table</td>
+        </tr>
+        <tr>
+            <td>&ltthead&gt</td>
+            <td>Tag for defining Header row</td>
+        </tr>
+        <tr>
+            <td>&ltth&gt</td>
+            <td>Tag for defining header cell</td>
+        </tr>
+        <tr>
+            <td>&lttr&gt</td>
+            <td>Tag for defining table row</td>
+        </tr>
+        <tr>
+            <td>&lttd&gt</td>
+            <td>Tag for defining table cell</td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
